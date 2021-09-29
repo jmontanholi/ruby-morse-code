@@ -1,5 +1,5 @@
-def decode_char(string)
-  case string
+def decode_char(char)
+  case char
   when ".-"
     "A"
   when "-..."
@@ -57,4 +57,11 @@ def decode_char(string)
   end
 end
 
-p decode_char "..."
+def decode_word(word)
+  splitted_word = word.split(" ")
+  sentence = ""
+  splitted_word.each {|n| sentence += decode_char n}
+  sentence
+end
+
+p decode_word("-... --- -..-")
