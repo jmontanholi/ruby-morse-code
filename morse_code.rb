@@ -53,15 +53,24 @@ def decode_char(char)
   when "--.."
     "Z"
   else
-    "This is not a valid character in morse code"
+    char
   end
 end
 
 def decode_word(word)
   splitted_word = word.split(" ")
-  sentence = ""
-  splitted_word.each {|n| sentence += decode_char n}
-  sentence
+  new_word = ""
+  splitted_word.each {|n| new_word += decode_char n}
+  new_word
 end
 
-p decode_word("-... --- -..-")
+def decode(sentence)
+  splitted_sentence = sentence.split("   ")
+  sentence = ""
+  splitted_sentence.each do |n| 
+    sentence += "#{decode_word n} "
+  end
+  sentence.strip
+end
+
+p decode ".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-. / .-. ..- -... .. . ..."
