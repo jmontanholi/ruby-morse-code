@@ -1,59 +1,38 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Decoding Morse code
 
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+> This project's goal is to make the students feel more comfortable using Ruby.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby
+- Git & GitHub
+- VScode
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+- Open the local repository where you want to clone this project into.
 
-### Setup
+- Use this command in the command line while in that local repository to clone it
+`git clone https://github.com/jmontanholi/ruby-morse-code.git`
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
+- Open the repository, open the .rb file and run the code.
 ## Authors
 
-👤 **Author1**
+**Alonso Falconi**
+- GitHub - [@alonsofl](https://github.com/alonsofl)
+- Twitter - [@AlonsoFalconi](https://www.twitter.com/AlonsoFalconi)
+- LinkedIn - [Alonso Falconi](https://www.linkedin.com/in/alonsofalconi/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
+👤 **João Vítor Montanholi Nunes**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [jmontanholi](https://github.com/jmontanholi)
+- Twitter: [MontanholiNunes](https://twitter.com/MontanholiNunes)
+- LinkedIn: [Joao vitor montanholi](https://www.linkedin.com/in/joaovitormontanholi/)
 
 ## 🤝 Contributing
 
@@ -67,9 +46,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
 
 ## 📝 License
 
